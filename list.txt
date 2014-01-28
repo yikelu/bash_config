@@ -180,7 +180,7 @@ gcr						install
 gdb						install
 genisoimage					install
 geoip-database					install
-geomview					install
+geomview					deinstall
 gettext						install
 gettext-base					install
 gfortran					install
@@ -1623,6 +1623,7 @@ xfonts-base					install
 xfonts-encodings				install
 xfonts-mathml					install
 xfonts-scalable					install
+xfonts-terminus					install
 xfonts-utils					install
 xinit						install
 xinput						install
