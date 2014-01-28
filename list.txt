@@ -437,6 +437,7 @@ libbonoboui2-0:i386				install
 libbonoboui2-common				install
 libboost-date-time1.53.0:i386			install
 libboost-program-options1.53.0:i386		install
+libboost-regex1.53.0:i386			install
 libboost-system1.53.0:i386			install
 libboost-thread1.53.0:i386			install
 libbrlapi0.6:i386				install
@@ -1078,6 +1079,8 @@ libsolid4					install
 libsoprano4					install
 libsoup-gnome2.4-1:i386				install
 libsoup2.4-1:i386				install
+libsource-highlight-common			install
+libsource-highlight4				install
 libspectre1:i386				install
 libspeechd2:i386				install
 libspeex1:i386					install
@@ -1511,6 +1514,7 @@ software-properties-common			install
 software-properties-kde				install
 soprano-daemon					install
 sound-theme-freedesktop				install
+source-highlight				install
 ssl-cert					install
 strace						install
 sudo						install

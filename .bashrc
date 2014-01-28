@@ -105,11 +105,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-alias vb="vi ~/.bashrc"
-alias sb="source ~/.bashrc"
-alias vv='vi ~/.vimrc'
-
+# this bash completion stuff, overall pretty standard
 source ~/bash_config/git-completion.bash
 source ~/bash_config/git-prompt.sh
 
@@ -129,3 +125,11 @@ PS1="$PS1"'\[\033[0m\]'        # change color
 PS1="$PS1"'\n'                 # new line
 PS1="$PS1"'$ '                 # prompt: always $
 
+export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
+export LESS=' -R '
+
+# convenience aliases
+
+alias vb="vi ~/.bashrc"
+alias sb="source ~/.bashrc"
+alias vv='vi ~/.vimrc'
