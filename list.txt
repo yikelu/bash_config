@@ -1533,6 +1533,7 @@ tcl8.5						install
 tcl8.5-lib:i386					install
 tcpd						install
 tcpdump						install
+tdsodbc:i386					install
 telepathy-gabble				install
 telepathy-haze					install
 telepathy-logger				install
