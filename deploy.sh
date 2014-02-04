@@ -11,3 +11,4 @@ for i in `awk '{print $1}' list.txt`; do sudo apt-get install -y $i; done
 # soft link the bashrc
 ln -s ~/bash_config/.bashrc ~/.bashrc
 ln -s ~/bash_config/.gitconfig ~/.gitconfig
+ln -s ~/bash_config/.vrapperrc ~/.vrapperrc

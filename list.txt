@@ -719,6 +719,7 @@ libfreerdp1:amd64				install
 libfreerdp1:i386				install
 libfreetype6:amd64				deinstall
 libfreetype6:i386				install
+libfreetype6-dev				install
 libfribidi0:amd64				deinstall
 libfribidi0:i386				install
 libfs6:amd64					deinstall
@@ -1100,7 +1101,7 @@ liblocale-gettext-perl				install
 liblockfile-bin					install
 liblockfile1:amd64				deinstall
 liblockfile1:i386				install
-liblog4cplus-1.0-4				install
+liblog4cplus-1.0-4				deinstall
 liblog4cxx10					install
 liblog4cxx10-dev				install
 liblog4j1.2-java				install
