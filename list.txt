@@ -14,6 +14,7 @@ amarok-common					install
 amarok-utils					install
 anacron						install
 ant						install
+ant-contrib-cpptasks				install
 ant-optional					install
 app-install-data				install
 app-install-data-partner			install
@@ -56,6 +57,8 @@ bluez-cups					install
 brltty						install
 bsdmainutils					install
 bsdutils					install
+bsh						install
+bsh-gcj						install
 build-essential					install
 busybox-initramfs				install
 busybox-static					install
@@ -70,6 +73,7 @@ clang						install
 clang-3.2					install
 colord						install
 colord-kde					install
+comerr-dev					install
 command-not-found				install
 command-not-found-data				install
 console-setup					install
@@ -147,12 +151,14 @@ fonts-khmeros-core				install
 fonts-lao					install
 fonts-liberation				install
 fonts-lklug-sinhala				install
+fonts-lmodern					install
 fonts-lyx					install
 fonts-nanum					install
 fonts-opensymbol				install
 fonts-sil-abyssinica				install
 fonts-sil-padauk				install
 fonts-takao-pgothic				install
+fonts-texgyre					install
 fonts-thai-tlwg					install
 fonts-tibetan-machine				install
 fonts-tlwg-garuda				install
@@ -169,6 +175,7 @@ fonts-tlwg-umpush				install
 fonts-tlwg-waree				install
 foomatic-db-compressed-ppds			install
 foomatic-filters				install
+fop						install
 freerdp-x11					install
 freespacenotifier				install
 freetds-bin					install
@@ -185,6 +192,7 @@ gcc-4.8						install
 gcc-4.8-base:amd64				install
 gcc-4.8-base:i386				install
 gccxml						install
+gcj-4.8-jre-lib					install
 gconf-service					install
 gconf-service-backend				install
 gconf2						install
@@ -284,8 +292,10 @@ isc-dhcp-common					install
 iso-codes					install
 iw						install
 java-common					install
+java-wrappers					install
 jockey-common					install
 jockey-kde					install
+junit						install
 k3b						install
 k3b-data					install
 k3b-i18n					install
@@ -369,6 +379,7 @@ korganizer					install
 kpat						install
 kppp						install
 krb5-locales					install
+krb5-multidev					install
 krdc						install
 krita						deinstall
 krita-data					install
@@ -393,6 +404,8 @@ language-pack-en-base				install
 language-pack-kde-en				install
 language-selector-common			install
 laptop-detect					install
+latex-beamer					install
+latex-xcolor					install
 less						install
 libaa1:amd64					install
 libaa1:i386					install
@@ -416,8 +429,13 @@ libalgorithm-merge-perl				install
 libao-common					install
 libao4:amd64					deinstall
 libao4:i386					install
+libapache-pom-java				install
 libapparmor-perl				install
 libapparmor1					install
+libapr1						install
+libapr1-dev					install
+libaprutil1					install
+libaprutil1-dev					install
 libapt-inst1.5:amd64				deinstall
 libapt-inst1.5:i386				install
 libapt-pkg-perl					install
@@ -480,8 +498,10 @@ libavahi-glib1:amd64				install
 libavahi-glib1:i386				install
 libavahi-gobject0:amd64				install
 libavahi-gobject0:i386				install
+libavalon-framework-java			install
 libavc1394-0:amd64				install
 libavc1394-0:i386				install
+libbatik-java					install
 libbind9-90					install
 libblas-dev					install
 libblas3					install
@@ -515,6 +535,7 @@ libbrlapi0.6:amd64				install
 libbrlapi0.6:i386				install
 libbsd0:amd64					deinstall
 libbsd0:i386					install
+libbsf-java					install
 libbz2-1.0:amd64				deinstall
 libbz2-1.0:i386					install
 libbz2-dev:amd64				install
@@ -569,6 +590,9 @@ libcolorhug1:amd64				deinstall
 libcolorhug1:i386				install
 libcomerr2:amd64				deinstall
 libcomerr2:i386					install
+libcommons-io-java				install
+libcommons-logging-java				install
+libcommons-parent-java				install
 libcrack2					install
 libcroco3:amd64					deinstall
 libcroco3:i386					install
@@ -620,6 +644,7 @@ libdlrestrictions1				install
 libdmtx0a:amd64					deinstall
 libdmtx0a:i386					install
 libdns99					install
+libdom4j-java					install
 libdpkg-perl					install
 libdrm-intel1:amd64				install
 libdrm-intel1:i386				install
@@ -687,6 +712,7 @@ libfontembed1:amd64				deinstall
 libfontembed1:i386				install
 libfontenc1:amd64				deinstall
 libfontenc1:i386				install
+libfop-java					install
 libfreerdp-plugins-standard:amd64		install
 libfreerdp-plugins-standard:i386		install
 libfreerdp1:amd64				install
@@ -708,6 +734,9 @@ libgcc-4.8-dev:amd64				install
 libgcc-4.8-dev:i386				install
 libgcc1:amd64					install
 libgcc1:i386					install
+libgcj-bc:amd64					install
+libgcj-common					install
+libgcj14:amd64					install
 libgck-1-0:amd64				deinstall
 libgck-1-0:i386					install
 libgconf-2-4:amd64				deinstall
@@ -813,6 +842,7 @@ libgssapi-krb5-2:i386				install
 libgssapi3-heimdal:amd64			deinstall
 libgssapi3-heimdal:i386				install
 libgssdp-1.0-3					install
+libgssrpc4:amd64				install
 libgstreamer-plugins-base0.10-0:amd64		deinstall
 libgstreamer-plugins-base0.10-0:i386		install
 libgstreamer-plugins-base1.0-0:amd64		deinstall
@@ -911,9 +941,13 @@ libjack-jackd2-0:amd64				install
 libjack-jackd2-0:i386				install
 libjasper1:amd64				deinstall
 libjasper1:i386					install
+libjaxen-java					install
+libjaxp1.3-java					install
 libjbig0:amd64					deinstall
 libjbig0:i386					install
 libjbig2dec0					install
+libjdom1-java					install
+libjline-java					install
 libjpeg-dev:amd64				install
 libjpeg-dev:i386				install
 libjpeg-turbo8:amd64				install
@@ -925,6 +959,7 @@ libjpeg8:i386					install
 libjpeg8-dev:amd64				install
 libjpeg8-dev:i386				install
 libjs-jquery					install
+libjsch-java					install
 libjson-c2:amd64				deinstall
 libjson-c2:i386					install
 libjson0:amd64					deinstall
@@ -936,6 +971,8 @@ libkabc4					install
 libkactivities-bin				install
 libkactivities-models1				install
 libkactivities6					install
+libkadm5clnt-mit8:amd64				install
+libkadm5srv-mit8:amd64				install
 libkalarmcal2					install
 libkateinterfaces4				install
 libkatepartinterfaces4				install
@@ -946,6 +983,7 @@ libkcalutils4					install
 libkcddb4					install
 libkcmutils4					install
 libkcompactdisc4				install
+libkdb5-6:amd64					install
 libkdcraw-data					install
 libkdcraw22					install
 libkde3support4					install
@@ -999,6 +1037,7 @@ libkonq5-templates				install
 libkonq5abi1					install
 libkontactinterface4				install
 libkparts4					install
+libkpathsea6					install
 libkpgp4					install
 libkpimidentities4				install
 libkpimtextedit4				install
@@ -1009,6 +1048,7 @@ libkrb5-26-heimdal:amd64			deinstall
 libkrb5-26-heimdal:i386				install
 libkrb5-3:amd64					deinstall
 libkrb5-3:i386					install
+libkrb5-dev					install
 libkrb5support0:amd64				deinstall
 libkrb5support0:i386				install
 libkresources4					install
@@ -1047,6 +1087,7 @@ liblcms2-2:amd64				deinstall
 liblcms2-2:i386					install
 libldap-2.4-2:amd64				deinstall
 libldap-2.4-2:i386				install
+libldap2-dev:amd64				install
 liblightdm-gobject-1-0				install
 liblightdm-qt-3-0				install
 liblist-moreutils-perl				install
@@ -1059,6 +1100,10 @@ liblocale-gettext-perl				install
 liblockfile-bin					install
 liblockfile1:amd64				deinstall
 liblockfile1:i386				install
+liblog4cplus-1.0-4				install
+liblog4cxx10					install
+liblog4cxx10-dev				install
+liblog4j1.2-java				install
 libloudmouth1-0					install
 libltdl-dev:amd64				install
 libltdl-dev:i386				install
@@ -1115,6 +1160,7 @@ libmtp9:i386					install
 libmuonprivate1					install
 libmusicbrainz5-0:amd64				deinstall
 libmygpo-qt1					install
+libmysqlclient-dev				install
 libmysqlclient18:amd64				install
 libmysqlclient18:i386				install
 libmythes-1.2-0					install
@@ -1282,6 +1328,8 @@ libpoppler43:amd64				deinstall
 libpoppler43:i386				install
 libpopt0:amd64					deinstall
 libpopt0:i386					install
+libpq-dev					install
+libpq5						install
 libprison0:amd64				deinstall
 libprison0:i386					install
 libprocesscore4abi1				install
@@ -1290,6 +1338,7 @@ libprocps0:amd64				install
 libprocps0:i386					install
 libproxy1:amd64					install
 libproxy1:i386					install
+libptexenc1					install
 libpth20:amd64					install
 libpth20:i386					install
 libpulse-mainloop-glib0:amd64			deinstall
@@ -1422,6 +1471,7 @@ libreadline6:amd64				deinstall
 libreadline6:i386				install
 libreadline6-dev:amd64				install
 libreadline6-dev:i386				install
+libregexp-java					install
 libreoffice-base-core				install
 libreoffice-calc				install
 libreoffice-common				install
@@ -1434,6 +1484,7 @@ libreoffice-math				install
 libreoffice-pdfimport				install
 libreoffice-style-oxygen			install
 libreoffice-writer				install
+librhino-java					install
 libroken18-heimdal:amd64			deinstall
 libroken18-heimdal:i386				install
 librtmp0:amd64					deinstall
@@ -1451,6 +1502,7 @@ libsasl2-modules:amd64				deinstall
 libsasl2-modules:i386				install
 libsasl2-modules-db:amd64			deinstall
 libsasl2-modules-db:i386			install
+libsaxon-java					install
 libsbc1:amd64					install
 libsbc1:i386					install
 libsecret-1-0:amd64				install
@@ -1465,6 +1517,7 @@ libsensors4:amd64				deinstall
 libsensors4:i386				install
 libsepol1:amd64					deinstall
 libsepol1:i386					install
+libservlet3.0-java				install
 libsgutils2-2					install
 libshout3:amd64					install
 libshout3:i386					install
@@ -1499,10 +1552,13 @@ libspeexdsp1:i386				install
 libspnav0					install
 libsqlite3-0:amd64				deinstall
 libsqlite3-0:i386				install
+libsqlite3-dev:amd64				install
 libss2:amd64					deinstall
 libss2:i386					install
 libssh-4:amd64					deinstall
 libssh-4:i386					install
+libssl-dev:amd64				install
+libssl-doc					install
 libssl1.0.0:amd64				install
 libssl1.0.0:i386				install
 libstartup-notification0:amd64			install
@@ -1642,6 +1698,7 @@ libx11-xcb1:amd64				deinstall
 libx11-xcb1:i386				install
 libx86-1:amd64					deinstall
 libx86-1:i386					install
+libxalan2-java					install
 libxapian22					install
 libxatracker1:amd64				install
 libxatracker1:i386				install
@@ -1715,14 +1772,18 @@ libxml-parser-perl				install
 libxml2:amd64					deinstall
 libxml2:i386					install
 libxml2-utils					install
+libxmlgraphics-commons-java			install
 libxmu6:amd64					deinstall
 libxmu6:i386					install
 libxmuu1:amd64					deinstall
 libxmuu1:i386					install
+libxom-java					install
 libxp6:amd64					install
 libxp6:i386					install
 libxpm4:amd64					deinstall
 libxpm4:i386					install
+libxpp2-java					install
+libxpp3-java					install
 libxrandr2:amd64				deinstall
 libxrandr2:i386					install
 libxrender1:amd64				deinstall
@@ -1773,6 +1834,7 @@ linux-sound-base				install
 llvm-3.2					install
 llvm-3.2-dev					install
 llvm-3.2-runtime				install
+lmodern						install
 locales						install
 lockfile-progs					install
 login						install
@@ -1783,12 +1845,14 @@ lsb-release					install
 lshw						install
 lsof						install
 ltrace						install
+luatex						install
 m4						install
 make						install
 makedev						install
 man-db						install
 manpages					install
 manpages-dev					install
+maven2						deinstall
 mawk						install
 media-player-info				install
 memtest86+					install
@@ -1860,6 +1924,7 @@ pcmciautils					install
 perl						install
 perl-base					install
 perl-modules					install
+pgf						install
 phonon:amd64					deinstall
 phonon:i386					install
 phonon-backend-gstreamer:amd64			deinstall
@@ -1898,6 +1963,7 @@ ppp						install
 pppconfig					install
 pppoeconf					install
 pptp-linux					install
+preview-latex-style				install
 print-manager					install
 printer-driver-c2esp				install
 printer-driver-foo2zjs				install
@@ -1911,6 +1977,8 @@ printer-driver-pxljr				install
 printer-driver-sag-gdi				install
 printer-driver-splix				install
 procps						install
+prosper						install
+ps2eps						install
 psmisc						install
 pulseaudio					install
 pulseaudio-module-bluetooth			install
@@ -2029,6 +2097,7 @@ readline-common					install
 rekonq						install
 resolvconf					install
 rfkill						install
+rhino						install
 rsync						install
 rsyslog						install
 rtkit						install
@@ -2079,7 +2148,28 @@ telepathy-mission-control-5			install
 telepathy-salut					install
 telnet						install
 terminator					install
+tex-common					install
+tex-gyre					install
+texlive-base					install
+texlive-binaries				install
+texlive-extra-utils				install
+texlive-font-utils				install
+texlive-fonts-recommended			install
+texlive-fonts-recommended-doc			install
+texlive-generic-recommended			install
+texlive-latex-base				install
+texlive-latex-base-doc				install
+texlive-latex-extra				install
+texlive-latex-extra-doc				install
+texlive-latex-recommended			install
+texlive-latex-recommended-doc			install
+texlive-luatex					install
+texlive-pictures				install
+texlive-pictures-doc				install
+texlive-pstricks				install
+texlive-pstricks-doc				install
 time						install
+tipa						install
 tk8.5						install
 tk8.5-lib:amd64					install
 tk8.5-lib:i386					install
@@ -2087,6 +2177,7 @@ toshset						install
 ttf-anonymous-pro				install
 ttf-dejavu-core					install
 ttf-indic-fonts-core				install
+ttf-marvosym					install
 ttf-oxygen-font-family				install
 ttf-punjabi-fonts				install
 ttf-ubuntu-font-family				install
@@ -2125,6 +2216,7 @@ usbmuxd						install
 usbutils					install
 user-manager					install
 util-linux					install
+uuid-dev					install
 uuid-runtime					install
 vbetool						install
 vcdimager					install

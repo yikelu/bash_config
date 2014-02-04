@@ -133,3 +133,5 @@ export LESS=' -R '
 alias vb="vi ~/.bashrc"
 alias sb="source ~/.bashrc"
 alias vv='vi ~/.vimrc'
+
+export PATH="~/bin:$PATH"
