@@ -134,4 +134,6 @@ alias vb="vi ~/.bashrc"
 alias sb="source ~/.bashrc"
 alias vv='vi ~/.vimrc'
 
-export PATH="~/bin:$PATH"
+PATH="~/bin:$PATH"
+PATH=$HOME/anaconda/bin:$PATH
+export PATH
