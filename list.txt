@@ -125,6 +125,7 @@ dnsutils					install
 docbook-xml					install
 docbook-xsl					install
 dolphin						install
+dos2unix					install
 dosfstools					install
 dpkg						install
 dpkg-dev					install
