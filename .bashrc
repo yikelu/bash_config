@@ -133,7 +133,6 @@ export LESS=' -R '
 alias vb="vi ~/.bashrc"
 alias sb="source ~/.bashrc"
 alias vv='vi ~/.vimrc'
-alias ypy="ipython -i ~/.ypy"
 
 PATH="~/bin:$PATH"
 PATH=$HOME/anaconda/bin:$PATH
