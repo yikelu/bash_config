@@ -1515,6 +1515,9 @@ linux-image-generic				install
 linux-libc-dev:amd64				install
 linux-libc-dev:i386				install
 linux-sound-base				install
+linux-tools-3.11.0-15				install
+linux-tools-3.11.0-15-generic			install
+linux-tools-common				install
 llvm						install
 llvm-3.2					install
 llvm-3.2-dev					install

@@ -9,3 +9,5 @@
     lg = !"git lg1"
 [color]
 	ui = true
+[merge]
+	tool = gvimdiff

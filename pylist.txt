@@ -18,13 +18,14 @@ casuarius=1.1=py27_0
 cffi=0.8.1=py27_0
 chaco=4.3.0=np17py27_1
 colorama=0.2.7=py27_0
-conda=3.0.3=py27_0
+conda=3.0.5=py27_0
 conda-build=1.1.0=py27_0
 configobj=4.7.2=py27_0
 cubes=0.10.2=py27_3
 curl=7.30.0=0
 cython=0.19.2=py27_0
 dateutil=2.1=py27_2
+dill=0.2b1=py27_0
 disco=0.4.4=py27_0
 distribute=0.6.45=py27_0
 docutils=0.11=py27_0
@@ -87,6 +88,8 @@ pep8=1.4.6=py27_0
 pip=1.4.1=py27_0
 pixman=0.26.2=0
 ply=3.4=py27_0
+pox=0.1a1=py27_0
+pp=1.6.4=py27_0
 psutil=1.1.2=py27_0
 py=1.4.17=py27_0
 py2cairo=1.10.0=py27_1
@@ -134,6 +137,7 @@ tk=8.5.13=0
 tornado=3.1.1=py27_0
 traits=4.3.0=py27_0
 traitsui=4.3.0=py27_0
+unipath=1.0=py27_0
 util-linux=2.21=0
 vtk=5.10.1=py27_1
 werkzeug=0.9.4=py27_0
