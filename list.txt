@@ -67,6 +67,7 @@ calligra-libs					install
 cdparanoia					install
 cdrdao						install
 chrpath						install
+cifs-utils					install
 clang						install
 clang-3.2					install
 colord						install
@@ -124,6 +125,8 @@ docbook-xsl					install
 dolphin						install
 dos2unix					install
 dosfstools					install
+doxygen						install
+doxygen-latex					install
 dpkg						install
 dpkg-dev					install
 dragonplayer					install
@@ -157,6 +160,7 @@ fonts-opensymbol				install
 fonts-sil-abyssinica				install
 fonts-sil-padauk				install
 fonts-takao-pgothic				install
+fonts-texgyre					install
 fonts-thai-tlwg					install
 fonts-tibetan-machine				install
 fonts-tlwg-garuda				install
@@ -351,6 +355,7 @@ kdoctools					install
 kerneloops-daemon				install
 kexi						install
 keyboard-configuration				install
+keyutils					install
 khelpcenter4					install
 kinfocenter					install
 kio-audiocd					install
@@ -391,6 +396,8 @@ language-pack-en-base				install
 language-pack-kde-en				install
 language-selector-common			install
 laptop-detect					install
+latex-beamer					install
+latex-xcolor					install
 less						install
 libaa1:amd64					install
 libaa1:i386					install
@@ -491,6 +498,9 @@ libboost-regex1.53.0:amd64			install
 libboost-regex1.53.0:i386			install
 libboost-system1.53.0:amd64			install
 libboost-system1.53.0:i386			install
+libboost-test-dev:amd64				install
+libboost-test1.53-dev:amd64			install
+libboost-test1.53.0:amd64			install
 libboost-thread1.53.0:amd64			install
 libboost-thread1.53.0:i386			install
 libboost1.53-dev:amd64				install
@@ -608,6 +618,7 @@ libemail-valid-perl				install
 libencode-locale-perl				install
 libepub0					install
 liberror-perl					install
+libevent-2.0-5:amd64				install
 libeventviews4					install
 libexif12:i386					install
 libexiv2-12					install
@@ -728,6 +739,7 @@ libgs9-common					install
 libgssapi-krb5-2:i386				install
 libgssapi3-heimdal:i386				install
 libgssdp-1.0-3					install
+libgssglue1:amd64				install
 libgssrpc4:amd64				install
 libgstreamer-plugins-base0.10-0:i386		install
 libgstreamer-plugins-base1.0-0:i386		install
@@ -1027,6 +1039,7 @@ libnettle4:i386					install
 libnetworkmanagerqt0				install
 libnewt0.52:i386				install
 libnfnetlink0:i386				install
+libnfsidmap2:amd64				install
 libnice10:amd64					install
 libnih-dbus1:i386				install
 libnih1:i386					install
@@ -1105,6 +1118,7 @@ libpcrecpp0:i386				install
 libpcsclite1:i386				install
 libperl5.14					install
 libperlio-gzip-perl				install
+libpgm-5.1-0:amd64				install
 libphonon4:i386					install
 libphononexperimental4:i386			install
 libpimactivity4					install
@@ -1364,6 +1378,7 @@ libtinfo-dev:i386				install
 libtinfo5:i386					install
 libtinyxml2.6.2:amd64				install
 libtinyxml2.6.2:i386				install
+libtirpc1:amd64					install
 libtool						install
 libtsan0:amd64					install
 libtxc-dxtn-s2tc0:amd64				install
@@ -1497,6 +1512,9 @@ libyaml-cpp0.3:i386				install
 libzephyr4:amd64				install
 libzephyr4:i386					install
 libzip2						install
+libzmq1:amd64					install
+libzmq3:amd64					install
+libzmq3-dev:amd64				install
 lightdm						install
 lightdm-kde-greeter				install
 lintian						install
@@ -1576,6 +1594,7 @@ netbase						install
 netcat-openbsd					install
 network-manager					install
 network-manager-pptp				install
+nfs-common					install
 notification-daemon				install
 ntfs-3g						install
 ntpdate						install
@@ -1608,6 +1627,7 @@ pcmciautils					install
 perl						install
 perl-base					install
 perl-modules					install
+pgf						install
 phonon:i386					install
 phonon-backend-gstreamer:i386			install
 pinentry-qt4					install
@@ -1642,6 +1662,7 @@ ppp						install
 pppconfig					install
 pppoeconf					install
 pptp-linux					install
+preview-latex-style				install
 print-manager					install
 printer-driver-c2esp				install
 printer-driver-foo2zjs				install
@@ -1653,6 +1674,8 @@ printer-driver-ptouch				install
 printer-driver-pxljr				install
 printer-driver-splix				install
 procps						install
+prosper						install
+ps2eps						install
 psmisc						install
 pulseaudio					install
 pulseaudio-module-bluetooth			install
@@ -1735,6 +1758,7 @@ rekonq						install
 resolvconf					install
 rfkill						install
 rhino						install
+rpcbind						install
 rstudio						install
 rsync						install
 rsyslog						install
@@ -1786,10 +1810,27 @@ telepathy-salut					install
 telnet						install
 terminator					install
 tex-common					install
+tex-gyre					install
 texlive-base					install
 texlive-binaries				install
+texlive-extra-utils				install
+texlive-font-utils				install
+texlive-fonts-recommended			install
+texlive-fonts-recommended-doc			install
+texlive-generic-recommended			install
+texlive-latex-base				install
+texlive-latex-base-doc				install
+texlive-latex-extra				install
+texlive-latex-extra-doc				install
+texlive-latex-recommended			install
+texlive-latex-recommended-doc			install
 texlive-luatex					install
+texlive-pictures				install
+texlive-pictures-doc				install
+texlive-pstricks				install
+texlive-pstricks-doc				install
 time						install
+tipa						install
 tk8.5						install
 tk8.5-lib:amd64					install
 tk8.5-lib:i386					install
@@ -1797,6 +1838,7 @@ toshset						install
 ttf-anonymous-pro				install
 ttf-dejavu-core					install
 ttf-indic-fonts-core				install
+ttf-marvosym					install
 ttf-oxygen-font-family				install
 ttf-punjabi-fonts				install
 ttf-ubuntu-font-family				install

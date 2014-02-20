@@ -17,6 +17,12 @@ ln -s ~/bash_config/.vrapperrc ~/.vrapperrc
 ln -s ~/bash_config/.ypy ~/.ypy
 ln -s ~/bash_config/ypy ~/bin/ypy
 
+# install zmqpp
+pushd zmqpp
+make
+sudo make install
+popd
+
 # install Anaconda
 wget http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.8.0-Linux-x86_64.sh
 bash Anaconda-1.8.0-Linux-x86_64.sh
