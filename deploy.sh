@@ -28,3 +28,9 @@ wget http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcd
 bash Anaconda-1.8.0-Linux-x86_64.sh
 
 # haven't figured out how to loop through the pylist and install yet
+
+
+# put /usr/local/lib onto the library path
+
+sudo echo "/usr/local/lib" > /etc/ld.so.conf.d/99local.conf
+sudo ldconfig
