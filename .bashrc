@@ -133,7 +133,10 @@ export LESS=' -R '
 alias vb="vi ~/.bashrc"
 alias sb="source ~/.bashrc"
 alias vv='vi ~/.vimrc'
+alias j="rlwrap -a -S 'j>> ' jconsole"
 
 PATH="~/bin:$PATH"
 PATH=$HOME/anaconda/bin:$PATH
 export PATH
+export QT_PLUGIN_PATH=''
+export PYTHONPATH=~/CustomPython:$PYTHONPATH

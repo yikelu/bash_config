@@ -262,6 +262,7 @@ hdf5-helpers					install
 hdparm						install
 hicolor-icon-theme				install
 hostname					install
+htop						install
 hunspell-en-us					install
 hyphen-en-us					install
 ibus-qt4					install
@@ -1758,6 +1759,7 @@ rekonq						install
 resolvconf					install
 rfkill						install
 rhino						install
+rlwrap						install
 rpcbind						install
 rstudio						install
 rsync						install
