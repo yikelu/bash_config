@@ -34,8 +34,10 @@ ark						install
 aspell						install
 aspell-en					install
 at-spi2-core					install
+athena-jot					install
 audiocd-kio					install
 autoconf					install
+autogen						install
 automake					install
 autotools-dev					install
 avahi-autoipd					install
@@ -66,6 +68,7 @@ calligra-data					install
 calligra-libs					install
 cdparanoia					install
 cdrdao						install
+chicken-bin					install
 chrpath						install
 cifs-utils					install
 clang						install
@@ -249,6 +252,7 @@ gtk2-engines-oxygen:amd64			install
 gtk2-engines-oxygen:i386			install
 gtk3-engines-oxygen:amd64			install
 gtk3-engines-oxygen:i386			install
+guile-2.0-libs					install
 gvfs:amd64					install
 gvfs:i386					install
 gvfs-common					install
@@ -267,6 +271,7 @@ hunspell-en-us					install
 hyphen-en-us					install
 ibus-qt4					install
 icoutils					install
+iftop						install
 ifupdown					install
 im-config					install
 info						install
@@ -292,6 +297,7 @@ iso-codes					install
 iw						install
 java-common					install
 java-wrappers					install
+jnettop						install
 junit						install
 k3b						install
 k3b-data					install
@@ -417,6 +423,7 @@ libakonadiprotocolinternals1			install
 libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
 libalgorithm-merge-perl				install
+libamd2.2.0					install
 libao-common					install
 libao4:i386					install
 libapache-pom-java				install
@@ -431,6 +438,7 @@ libapt-pkg-perl					install
 libapt-pkg4.12:i386				install
 libarchive-zip-perl				install
 libarchive13:i386				install
+libarpack2					install
 libart-2.0-2:i386				install
 libasan0:amd64					install
 libasan0:i386					install
@@ -532,7 +540,10 @@ libcap2-bin					install
 libcdio13					install
 libcdparanoia0:i386				install
 libcdr-0.0-0					install
+libchicken-dev					install
+libchicken6					install
 libchm1						install
+libcholmod1.7.1					install
 libck-connector0:i386				install
 libclang-common-dev				install
 libclang1					install
@@ -594,6 +605,7 @@ libdlrestrictions1				install
 libdmtx0a:i386					install
 libdns99					install
 libdom4j-java					install
+libdouble-conversion0:amd64			install
 libdpkg-perl					install
 libdrm-intel1:amd64				install
 libdrm-intel1:i386				install
@@ -631,6 +643,8 @@ libexttextcat-data				install
 libfarstream-0.1-0:amd64			install
 libffi-dev:amd64				install
 libffi6:i386					install
+libfftw3-3:amd64				install
+libfftw3-double3:amd64				install
 libfftw3-double3:i386				install
 libfftw3-single3:amd64				install
 libfftw3-single3:i386				install
@@ -660,6 +674,7 @@ libgail18:amd64					install
 libgail18:i386					install
 libgbm1:amd64					install
 libgbm1:i386					install
+libgc1c2:amd64					install
 libgcc-4.7-dev:amd64				install
 libgcc-4.8-dev:amd64				install
 libgcc-4.8-dev:i386				install
@@ -1019,6 +1034,7 @@ libmysqlclient18:amd64				install
 libmysqlclient18:i386				install
 libmythes-1.2-0					install
 libncurses5:i386				install
+libncurses5-dev:amd64				install
 libncurses5-dev:i386				install
 libncursesw5:i386				install
 libneon27-gnutls				install
@@ -1076,6 +1092,8 @@ libopenobex1					install
 libopenshiva0.8					install
 libopenvg1-mesa:amd64				install
 libopenvg1-mesa:i386				install
+libopts25:amd64					install
+libopts25-dev					install
 liborbit2:amd64					install
 liborbit2:i386					install
 liborc-0.4-0:i386				install
@@ -1375,6 +1393,7 @@ libtiff4:amd64					install
 libtiff4:i386					install
 libtiff5:i386					install
 libtimedate-perl				install
+libtinfo-dev:amd64				install
 libtinfo-dev:i386				install
 libtinfo5:i386					install
 libtinyxml2.6.2:amd64				install
@@ -1390,7 +1409,9 @@ libudisks2-0:amd64				install
 libudisks2-0:i386				install
 libuil4:amd64					install
 libuil4:i386					install
+libumfpack5.4.0					install
 libunistring0:i386				install
+libunwind8					install
 libupower-glib1:amd64				install
 libupower-glib1:i386				install
 liburi-perl					install
@@ -1770,6 +1791,7 @@ ruby1.9.1					install
 samba-common					install
 samba-common-bin				install
 sane-utils					install
+sbcl						install
 scdaemon					install
 sed						install
 sensible-utils					install
