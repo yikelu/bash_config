@@ -113,7 +113,7 @@ source ~/bash_config/git-prompt.sh
 PS1='\[\033]0;$MSYSTEM:\w\007\]' # set window title
 PS1="$PS1"'\n'                 # new line
 PS1="$PS1"'\[\033[32m\]'       # change color
-PS1="$PS1""[$(date +%Y-%m-%d\ %H:%M:%S)]" #datetime
+PS1="$PS1""[\D{%Y-%m-%d %H:%M:%S}]" #datetime
 PS1="$PS1"' [\u]'           # user@host<space>
 PS1="$PS1"'\[\033[33m\]'       # change color
 PS1="$PS1"' [\w]'                 # current working directory
