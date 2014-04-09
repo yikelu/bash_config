@@ -135,7 +135,7 @@ alias sb="source ~/.bashrc"
 alias vv='vi ~/.vimrc'
 alias j="rlwrap -a -S 'j>> ' jconsole"
 alias ecl='rlwrap ecl'
-alias sbcl='rlwrap sbcl'
+#alias sbcl='rlwrap sbcl'
 alias csi='rlwrap csi'
 
 PATH="~/bin:$PATH"

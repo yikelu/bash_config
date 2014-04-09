@@ -22,7 +22,7 @@ cdecimal=2.3=py27_0
 cffi=0.8.1=py27_0
 chaco=4.4.1=np18py27_0
 colorama=0.2.7=py27_0
-conda=3.3.2=py27_0
+conda=3.4.0=py27_0
 conda-build=1.1.0=py27_0
 configobj=4.7.2=py27_0
 cubes=0.10.2=py27_4
@@ -115,6 +115,7 @@ pyface=4.4.0=py27_0
 pyflakes=0.7.3=py27_0
 pygments=1.6=py27_0
 pykit=0.2.0=np18py27_0
+pymongo=2.5.2=py27_0
 pymssql=2.0.1=py27_0
 pyparsing=2.0.1=py27_0
 pysal=1.6.0=np18py27_1

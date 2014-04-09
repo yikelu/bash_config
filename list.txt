@@ -1592,6 +1592,7 @@ mlocate						install
 mobile-broadband-provider-info			install
 modemmanager					install
 module-init-tools				install
+mongodb-10gen					install
 mount						install
 mountall					install
 mscompress					install
@@ -1652,6 +1653,7 @@ perl-modules					install
 pgf						install
 phonon:i386					install
 phonon-backend-gstreamer:i386			install
+picolisp					install
 pinentry-qt4					install
 plasma-dataengines-addons			install
 plasma-dataengines-workspace			install
