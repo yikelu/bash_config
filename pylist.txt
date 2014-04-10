@@ -6,6 +6,7 @@ anaconda=1.9.1=np18py27_0
 apptools=4.2.1=py27_0
 argcomplete=0.6.7=py27_0
 astropy=0.3.0=np18py27_0
+atlas=3.8.4=0
 atom=0.3.7=py27_0
 beautiful-soup=4.3.1=py27_0
 binstar=0.4.4=py27_1
@@ -22,7 +23,7 @@ cdecimal=2.3=py27_0
 cffi=0.8.1=py27_0
 chaco=4.4.1=np18py27_0
 colorama=0.2.7=py27_0
-conda=3.4.0=py27_0
+conda=3.4.1=py27_0
 conda-build=1.1.0=py27_0
 configobj=4.7.2=py27_0
 cubes=0.10.2=py27_4
@@ -92,7 +93,7 @@ numexpr=2.3.1=np18py27_0
 numpy=1.8.0=py27_0
 opencv=2.4.6=np18py27_0
 openpyxl=1.8.2=py27_1
-openssl=1.0.1c=0
+openssl=1.0.1g=0
 pandas=0.13.1=np18py27_0
 parmap=1.2.0=py27_0
 patsy=0.2.1=np18py27_0
