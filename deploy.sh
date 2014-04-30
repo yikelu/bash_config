@@ -16,6 +16,7 @@ ln -s ~/bash_config/.gitconfig ~/.gitconfig
 ln -s ~/bash_config/.vrapperrc ~/.vrapperrc
 ln -s ~/bash_config/.ypy ~/.ypy
 ln -s ~/bash_config/ypy ~/bin/ypy
+ln -s ~/bash_config/.gdbinit ~/.gdbinit
 
 # install zmqpp
 pushd zmqpp

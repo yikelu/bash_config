@@ -84,6 +84,7 @@ coreutils					install
 cpio						install
 cpp						install
 cpp-4.8						install
+cppcheck					install
 cracklib-runtime				install
 crda						install
 cron						install
@@ -1313,6 +1314,7 @@ libsemanage-common				install
 libsemanage1:i386				install
 libsensors4:i386				install
 libsepol1:i386					install
+libserf1:amd64					install
 libservlet3.0-java				install
 libsgutils2-2					install
 libshout3:amd64					install
@@ -1360,6 +1362,7 @@ libstreamanalyzer0				install
 libstreams0					install
 libsub-identify-perl				install
 libsub-name-perl				install
+libsvn1:amd64					install
 libswitch-perl					install
 libsybdb5:amd64					install
 libsybdb5:i386					install
@@ -1400,6 +1403,7 @@ libtimedate-perl				install
 libtinfo-dev:amd64				install
 libtinfo-dev:i386				install
 libtinfo5:i386					install
+libtinyxml2-0.0.0:amd64				install
 libtinyxml2.6.2:amd64				install
 libtinyxml2.6.2:i386				install
 libtirpc1:amd64					install
@@ -1814,6 +1818,7 @@ sound-theme-freedesktop				install
 source-highlight				install
 ssl-cert					install
 strace						install
+subversion					install
 sudo						install
 syslinux					install
 syslinux-common					install

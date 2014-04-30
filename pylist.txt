@@ -23,7 +23,7 @@ cdecimal=2.3=py27_0
 cffi=0.8.1=py27_0
 chaco=4.4.1=np18py27_0
 colorama=0.2.7=py27_0
-conda=3.4.1=py27_0
+conda=3.4.2=py27_0
 conda-build=1.1.0=py27_0
 configobj=4.7.2=py27_0
 cubes=0.10.2=py27_4
@@ -94,6 +94,7 @@ numpy=1.8.0=py27_0
 opencv=2.4.6=np18py27_0
 openpyxl=1.8.2=py27_1
 openssl=1.0.1g=0
+ordereddict=1.1=py27_0
 pandas=0.13.1=np18py27_0
 parmap=1.2.0=py27_0
 patsy=0.2.1=np18py27_0
@@ -126,7 +127,7 @@ pytables=3.1.0=np18py27_0
 pytest=2.5.2=py27_0
 python=2.7.6=1
 pytz=2013b=py27_0
-pyyaml=3.10=py27_0
+pyyaml=3.11=py27_0
 pyzmq=14.1.0=py27_0
 qt=4.8.5=0
 readline=6.2=2
