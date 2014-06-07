@@ -139,9 +139,11 @@ e2fslibs:i386					install
 e2fsprogs					install
 ed						install
 eject						install
+emacsen-common					install
 enchant						install
 enscript					install
 ethtool						install
+expect						install
 fakeroot					install
 file						install
 findutils					install
@@ -182,6 +184,7 @@ fonts-tlwg-waree				install
 foomatic-db-compressed-ppds			install
 foomatic-filters				install
 fop						install
+freenx-server					install
 freerdp-x11					install
 freespacenotifier				install
 freetds-bin					install
@@ -226,6 +229,11 @@ gnome-keyring					install
 gnupg						install
 gnupg-agent					install
 gnupg2						install
+golang						install
+golang-doc					install
+golang-go					install
+golang-go-linux-amd64				install
+golang-src					install
 gpgsm						install
 gpgv						install
 grep						install
@@ -424,7 +432,6 @@ libakonadiprotocolinternals1			install
 libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
 libalgorithm-merge-perl				install
-libamd2.2.0					install
 libao-common					install
 libao4:i386					install
 libapache-pom-java				install
@@ -439,7 +446,6 @@ libapt-pkg-perl					install
 libapt-pkg4.12:i386				install
 libarchive-zip-perl				install
 libarchive13:i386				install
-libarpack2					install
 libart-2.0-2:i386				install
 libasan0:amd64					install
 libasan0:i386					install
@@ -523,6 +529,7 @@ libbrlapi0.6:i386				install
 libbsd0:i386					install
 libbsf-java					install
 libbz2-1.0:i386					install
+libbz2-dev:amd64				install
 libbz2-dev:i386					install
 libc-bin					install
 libc-dev-bin					install
@@ -548,7 +555,6 @@ libcdr-0.0-0					install
 libchicken-dev					install
 libchicken6					install
 libchm1						install
-libcholmod1.7.1					install
 libck-connector0:i386				install
 libclang-common-dev				install
 libclang1					install
@@ -610,7 +616,6 @@ libdlrestrictions1				install
 libdmtx0a:i386					install
 libdns99					install
 libdom4j-java					install
-libdouble-conversion0:amd64			install
 libdpkg-perl					install
 libdrm-intel1:amd64				install
 libdrm-intel1:i386				install
@@ -648,8 +653,6 @@ libexttextcat-data				install
 libfarstream-0.1-0:amd64			install
 libffi-dev:amd64				install
 libffi6:i386					install
-libfftw3-3:amd64				install
-libfftw3-double3:amd64				install
 libfftw3-double3:i386				install
 libfftw3-single3:amd64				install
 libfftw3-single3:i386				install
@@ -999,6 +1002,7 @@ liblvm2app2.2:i386				install
 liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
 liblwres90					install
+liblzma-dev:amd64				install
 liblzma5:i386					install
 liblzo2-2:i386					install
 libmagic1:i386					install
@@ -1082,6 +1086,7 @@ libnss3-1d:i386					install
 libntrack-qt4-1					install
 libntrack0					install
 libnuma1					install
+libnx-xorg					install
 liboath0					install
 libodbc1:amd64					install
 libodbc1:i386					install
@@ -1167,6 +1172,8 @@ libpoppler43:i386				install
 libpopt0:i386					install
 libpq-dev					install
 libpq5						install
+libpqxx-3.1					install
+libpqxx3-dev					install
 libprison0:i386					install
 libprocesscore4abi1				install
 libprocessui4a					install
@@ -1417,9 +1424,7 @@ libudisks2-0:amd64				install
 libudisks2-0:i386				install
 libuil4:amd64					install
 libuil4:i386					install
-libumfpack5.4.0					install
 libunistring0:i386				install
-libunwind8					install
 libupower-glib1:amd64				install
 libupower-glib1:i386				install
 liburi-perl					install
@@ -1486,7 +1491,10 @@ libxcb-util0:i386				install
 libxcb-xfixes0:i386				install
 libxcb-xtest0:i386				install
 libxcb1:i386					install
+libxcomp3					install
+libxcompext3					install
 libxcomposite1:i386				install
+libxcompshad3					install
 libxcursor1:i386				install
 libxdamage1:i386				install
 libxdmcp6:i386					install
@@ -1542,7 +1550,6 @@ libyaml-cpp0.3:i386				install
 libzephyr4:amd64				install
 libzephyr4:i386					install
 libzip2						install
-libzmq1:amd64					install
 libzmq3:amd64					install
 libzmq3-dev:amd64				install
 lightdm						install
@@ -1618,6 +1625,7 @@ mythes-en-us					install
 nano						install
 ncurses-base					install
 ncurses-bin					install
+ncurses-term					install
 nepomuk-core-data				install
 nepomuk-core-runtime				install
 net-tools					install
@@ -1626,11 +1634,14 @@ netcat-openbsd					install
 network-manager					install
 network-manager-pptp				install
 nfs-common					install
+nomachine					install
 notification-daemon				install
 ntfs-3g						install
 ntpdate						install
 ntrack-module-libnl-0				install
 nvidia-common					install
+nx-common					install
+nxagent						install
 obex-data-server				install
 obexd-client					install
 odbcinst					install
@@ -1640,6 +1651,7 @@ okular-extra-backends				install
 openoffice.org-hyphenation			install
 openprinting-ppds				install
 openssh-client					install
+openssh-server					install
 openssl						install
 oracle-java7-installer				install
 oracle-java7-set-default			install
@@ -1663,6 +1675,7 @@ phonon:i386					install
 phonon-backend-gstreamer:i386			install
 picolisp					install
 pinentry-qt4					install
+pkg-config					install
 plasma-dataengines-addons			install
 plasma-dataengines-workspace			install
 plasma-desktop					install
@@ -1716,6 +1729,7 @@ pulseaudio-utils				install
 python						install
 python-apt-common				install
 python-cairo					install
+python-chardet					install
 python-dbus					install
 python-dbus-dev					install
 python-dev					install
@@ -1729,6 +1743,9 @@ python-keybinder				install
 python-minimal					install
 python-notify					install
 python-pyorbit					install
+python-requests					install
+python-six					install
+python-urllib3					install
 python-vte					install
 python2.7					install
 python2.7-dev					install
@@ -1816,6 +1833,7 @@ software-properties-kde				install
 soprano-daemon					install
 sound-theme-freedesktop				install
 source-highlight				install
+ssh-import-id					install
 ssl-cert					install
 strace						install
 subversion					install
