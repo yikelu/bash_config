@@ -137,9 +137,11 @@ alias j="rlwrap -a -S 'j>> ' jconsole"
 alias ecl='rlwrap ecl'
 #alias sbcl='rlwrap sbcl'
 alias csi='rlwrap csi'
+alias sshfit='ssh yikel@10.5.3.142'
 
 PATH="~/bin:$PATH"
 PATH=$HOME/anaconda/bin:$PATH
 export PATH
 export QT_PLUGIN_PATH=''
-export PYTHONPATH=~/CustomPython:$PYTHONPATH
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+export PYTHONPATH=/usr/local/CustomPython:$PYTHONPATH
